@@ -1,0 +1,48 @@
+h1 {
+    color: #0e0542;
+    text-align: center;
+    font-family: "Assistant", cursive;
+}
+
+#buttons-cluster {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 50%;
+    height: 50%;
+}
+
+.button-holder {
+    margin-right: 1%;
+    display: inline;
+}
+
+.num-row {
+    margin-top: 5%;
+}
+
+button {
+    background-color: #6879ff;
+    /* Custom background color */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    /* Remove default border */
+    font-size: 16px;
+    font-family: "Arial", cursive;
+    /* Font size */
+    border-radius: 3px;
+    /* Rounded corners */
+    cursor: pointer;
+    text-align: center;
+    height: 12%;
+    width: 16%;
+}
+
+#output {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 35%;
+    height: 10%;
+    border: 2px solid black;
+}
